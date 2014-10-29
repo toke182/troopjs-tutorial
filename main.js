@@ -36,3 +36,43 @@ require.config({
     });
   }
 });
+
+
+define('foo', ['troopjs-core/component/gadget'], function FooModule(Component) {
+    return Component.extend({
+        "sig/render": function(data) {
+            console.log("ancestor foo");
+        },
+        "regularFunc": function () {
+          console.log("ancestor regularFunc foo");
+        }
+    });
+});
+ 
+define('bar', ['foo'], function FooModule(Foo) {
+  return Foo.extend({
+    "sig/render": function (data) {
+      console.log("child bar");
+    },
+    "regularFunc": function () {
+      console.log("child regularFunc bar");
+    }
+  });
+});
+ 
+// Special like signals are distinguished from a regular method not only from it's signature,
+// but also the fact that these methods when overriding in a hierarchical components tree
+// where multiple specials share the same name, the overridden component's special function
+// are always called ahead of the special from the base component.
+ 
+require(['bar'], function(bar) {
+  var bar = bar();
+  bar.start()
+    .then(function() {
+      bar.signal("render") // child bar  ancestor foo
+        .then(function () {
+          bar.signal("regularFunc"); //Won't work because the funct doesn't have the 'sig' prefix
+          bar.regularFunc(); // child regularFunc bar
+      });
+    });
+});
