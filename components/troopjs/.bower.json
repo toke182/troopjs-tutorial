@@ -1,0 +1,35 @@
+{
+  "name": "troopjs",
+  "authors": [
+    {
+      "name": "Mikael Karon",
+      "email": "mikael@karon.se"
+    }
+  ],
+  "description": "Meta package wiring together all TroopJS submodules",
+  "license": "http://troopjs.mit-license.org/",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "poly": "0.6.0",
+    "requirejs-text": "2.0.10",
+    "requirejs": "2.1.9",
+    "when": "3.1.0"
+  },
+  "devDependencies": {
+    "requirejs-text": "~2"
+  },
+  "homepage": "https://github.com/troopjs/troopjs",
+  "_release": "4f7adcc9c9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "build/3.x",
+    "commit": "4f7adcc9c9b5101c4a0221704a1922621e7e77de"
+  },
+  "_source": "git://github.com/troopjs/troopjs.git",
+  "_target": "build/3.x",
+  "_originalSource": "troopjs"
+}

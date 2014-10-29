@@ -1,0 +1,24 @@
+{
+  "name": "troopjs-data",
+  "version": "4.0.3",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "troopjs-core": "~3",
+    "troopjs-util": "~3",
+    "poly": "~0",
+    "when": "~3"
+  },
+  "homepage": "https://github.com/troopjs/troopjs-data",
+  "_release": "4.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "4.0.3",
+    "commit": "34dd5bf694e79658308774c29e711e1c8e3bded4"
+  },
+  "_source": "git://github.com/troopjs/troopjs-data.git",
+  "_target": "4.0.3",
+  "_originalSource": "troopjs-data"
+}

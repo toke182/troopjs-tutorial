@@ -1,0 +1,21 @@
+{
+  "name": "troopjs-jquery",
+  "version": "3.0.3",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "jquery": "~2"
+  },
+  "homepage": "https://github.com/troopjs/troopjs-jquery",
+  "_release": "3.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.0.3",
+    "commit": "68b0b54b6a8bdc29ad9506d2d1155ea26124fba7"
+  },
+  "_source": "git://github.com/troopjs/troopjs-jquery.git",
+  "_target": "~3",
+  "_originalSource": "troopjs-jquery"
+}

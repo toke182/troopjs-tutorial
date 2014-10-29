@@ -1,0 +1,21 @@
+{
+  "name": "troopjs-project",
+  "version": "0.0.0",
+  "description": "application scaffolding by TroopJS yeoman generator",
+  "dependencies": {
+    "jquery": "^2",
+    "poly": "^0",
+    "requirejs": "^2",
+    "troopjs": "troopjs#build/3.x",
+    "when": "^3",
+    "troopjs-compose": "",
+    "troopjs-core": "",
+    "troopjs-log": "",
+    "troopjs-net": "",
+    "troopjs-jquery": "",
+    "troopjs-requirejs": "",
+    "troopjs-dom": "5.1.4",
+    "troopjs-data": "4.0.3",
+    "troopjs-opt": "1.0.3"
+  }
+}

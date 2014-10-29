@@ -1,0 +1,22 @@
+{
+  "name": "troopjs-log",
+  "version": "1.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "troopjs-util": "~3",
+    "poly": "~0"
+  },
+  "homepage": "https://github.com/troopjs/troopjs-log",
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "3dcc7f76927065dd2cd656ba78e94e9b522b45ba"
+  },
+  "_source": "git://github.com/troopjs/troopjs-log.git",
+  "_target": "~1",
+  "_originalSource": "troopjs-log"
+}

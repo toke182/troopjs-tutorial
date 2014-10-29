@@ -1,0 +1,24 @@
+{
+  "name": "troopjs-opt",
+  "version": "1.0.3",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "troopjs-core": "~3",
+    "troopjs-compose": "~3",
+    "poly": "~0",
+    "when": "~3"
+  },
+  "homepage": "https://github.com/troopjs/troopjs-opt",
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.3",
+    "commit": "aee7d50a971a5afdd05f6adda4499b565c95a2f0"
+  },
+  "_source": "git://github.com/troopjs/troopjs-opt.git",
+  "_target": "1.0.3",
+  "_originalSource": "troopjs-opt"
+}

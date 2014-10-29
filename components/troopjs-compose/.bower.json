@@ -1,0 +1,22 @@
+{
+  "name": "troopjs-compose",
+  "version": "3.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "troopjs-util": "~3",
+    "poly": "~0"
+  },
+  "homepage": "https://github.com/troopjs/troopjs-compose",
+  "_release": "3.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.0.1",
+    "commit": "bdfcea853e8a99493c3dd5d66b2ca047a804babd"
+  },
+  "_source": "git://github.com/troopjs/troopjs-compose.git",
+  "_target": "~3",
+  "_originalSource": "troopjs-compose"
+}

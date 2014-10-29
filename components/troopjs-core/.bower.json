@@ -1,0 +1,25 @@
+{
+  "name": "troopjs-core",
+  "version": "3.3.1",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "troopjs-log": "~1",
+    "troopjs-compose": "~3",
+    "troopjs-util": "~3",
+    "poly": "~0",
+    "when": "~3"
+  },
+  "homepage": "https://github.com/troopjs/troopjs-core",
+  "_release": "3.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.3.1",
+    "commit": "8b7f0881302be7aec5eb41664a022909e246aa19"
+  },
+  "_source": "git://github.com/troopjs/troopjs-core.git",
+  "_target": "~3",
+  "_originalSource": "troopjs-core"
+}
