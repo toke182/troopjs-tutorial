@@ -54,31 +54,3 @@ require.config({
     });
   }
 });
-
-// console.log(1)
-
-// define('foo', ['troopjs-core/component/gadget'], function (Component) {
-//   console.log(2)
-//   return Component.extend({
-//     "sig/start": function() {
-//       console.log(3)
-
-//     },
-//       "sig/render": function(data) {
-//         console.log(4)
-//         console.log(data);  // {title: "Foo"}
-//       }
-//     });
-// });
-
-// require(['foo'], function(foo) {
-//   console.log(5)
-//   // debugger;
-//   foo().start().then(function () {
-//     console.log(6)
-//     foo().signal("render", {title: "Foo"});
-//   });
-//   console.log(7)
-//   console.log(foo);
-// });
-// console.log(8);
