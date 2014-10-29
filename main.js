@@ -28,7 +28,7 @@ require.config({
   }],
   deps: [
     'require',
-    // 'when/monitor/console'
+    'when/monitor/console'
   ],
   callback: function bootstrap(require) {
     require([
@@ -38,14 +38,13 @@ require.config({
     ], function(troopjs, App, $) {
         // App($('html')).start();
         require(['kickstart'], function(kickstart) {
-            var me = this;
-
+           
           kickstart($("html"))
-            .start()
+            .start() //call signal start of kickstart
             .then(function() {
               console.log("promise from sig/start satisfied");
           });
-            
+        
         });
     });
   }
