@@ -9,18 +9,18 @@ require.config({
   packages: [{
     name: 'jquery',
     main: 'dist/jquery.js'
-  }, {
-    name: 'poly',
-    main: 'poly.js'
-  }, {
-    name: 'when',
-    main: 'when.js'
-  }, {
-    name: 'troopjs-project',
-    location: '..'
-  }, {
-    name: 'troopjs',
-    main: 'maxi.js'
+    }, {
+      name: 'poly',
+      main: 'poly.js'
+    }, {
+      name: 'when',
+      main: 'when.js'
+    }, {
+      name: 'troopjs-project',
+      location: '..'
+    }, {
+      name: 'troopjs',
+      main: 'maxi.js'
   }],
   deps: [
     'require',
@@ -35,4 +35,30 @@ require.config({
         App($('html')).start();
     });
   }
+});
+
+
+// CREATING A BASIC COMPONENT
+define('person', ['troopjs-core/component/base'], function ChildModule(Component) {
+  return Component.extend(
+    // Constructor function
+    function ChildComponent(name, surname) {
+      this.name = name;
+      this.surname = surname;
+    },
+    // Extends prototype properties
+    {
+      "walk": function () {
+        return this.name + " " + this.surname + " is walking";
+      }
+    });
+});
+
+require(['person'],  function (person) {
+  var javier = person("Javier", "Prieto"); 
+  console.log(javier.walk());
+  // In troopjs you normally won't append an element
+  // to the html on this way.
+  // This is just as an example
+  $("body").text(javier.walk());
 });
