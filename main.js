@@ -21,6 +21,10 @@ require.config({
   }, {
     name: 'troopjs',
     main: 'maxi.js'
+  }, {
+    name: 'kickstart',
+    location: '../kickstart',
+    main: 'widget'
   }],
   deps: [
     'require',
